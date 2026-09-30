@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Our Little Story">
+  <title>Our Little Story ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <div id="heartContainer" aria-hidden="true"></div>
+
+  <!-- MUSIC: ganti music/lagu.mp3 dengan lagu kamu -->
+  <audio id="music" loop preload="metadata">
+    <source src="music/lagu.mp3" type="audio/mpeg">
+  </audio>
+
+  <button class="music-toggle" id="musicBtn" type="button">
+    <span id="musicIcon">▶</span>
+    <span id="musicText">MUSIC OFF</span>
+  </button>
+
+  <!-- ================= OPENING ================= -->
+  <section class="opening" id="home">
+    <div class="opening-frame">
+      <div class="eyebrow">A LITTLE PLACE MADE FOR YOU</div>
+      <div class="opening-flower">♡</div>
+
+      <h1>Our <em>Little Story</em></h1>
+
+      <p class="opening-text">
+        Ada beberapa hal yang terlalu berharga untuk cuma disimpan
+        di kepala. Jadi, aku membuat tempat kecil ini untuk menyimpan
+        cerita, foto, dan kata-kata untuk kamu.
+      </p>
+
+      <a href="#story" class="primary-button">
+        <span>ENTER OUR STORY</span>
+        <span>♡</span>
+      </a>
+
+      <div class="scroll-hint">
+        <span></span>
+        SCROLL TO BEGIN
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <a href="#home" class="brand">♡ <span>Us</span></a>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#memories">Memories</a>
+      <a href="#her-gallery">Her Gallery</a>
+      <a href="#videos">Videos</a>
+      <a href="#her-videos">Her Videos</a>
+      <a href="#letter">Letter</a>
+      <a href="#messages">Pesan</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= OUR STORY ================= -->
+    <section class="section story-section" id="story">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 01</div>
+        <h2>About <em>Us</em></h2>
+        <p>
+          Bukan tentang hubungan yang sempurna. Cuma tentang dua orang
+          yang saling menemukan alasan untuk tetap membuat cerita.
+          saling memahami, dan tetap bertahan meski dikondisi sedang
+          tidak baik🥰💕
+        </p>
+      </div>
+
+      <div class="story-layout">
+
+        <article class="story-card story-card-main reveal">
+          <div class="card-number">01</div>
+          <div class="eyebrow">A FEW WORDS</div>
+          <h3>Untuk kamu yang<br><em>berarti.</em></h3>
+
+          <p>
+            Terima kasih sudah hadir di bagian hidupku. Mungkin tidak semua
+            hari terasa mudah, dan tidak semua cerita berjalan seperti yang
+            kita bayangkan. Tapi justru dari hal-hal sederhana itulah
+            banyak kenangan yang akhirnya menjadi berarti dan jadi awal kita
+            untuk belajar memahami satu sama lain🥰💕.
+          </p>
+
+          <p>
+            Aku suka bagaimana sebuah percakapan kecil bisa membuat hari
+            terasa lebih baik. Aku suka bagaimana foto sederhana bisa
+            menyimpan begitu banyak cerita, (hal sekecil apapun
+            bisa jadi berarti jika bersama mu liyana🤗❤️).
+          </p>
+
+          <div class="quote">
+            “Aku tidak ingin kita hanya menjadi kenangan.
+            Aku ingin kita terus punya halaman baru untuk ditulis.
+            dan diceritakan suatu saat nanti☺️💕”
+          </div>
+
+          <div class="signature">— someone who is grateful to have you ♡☺️🫵</div>
+        </article>
+
+        <aside class="story-card facts-card reveal">
+          <div class="eyebrow">LITTLE THINGS</div>
+          <h3>Things I want<br>to remember.</h3>
+
+          <div class="memory-list">
+            <div class="memory-item">
+              <span class="memory-icon">♡</span>
+              <div>
+                <strong>Your smile</strong>
+                <small>Hal sederhana yang selalu terasa spesial buat aku☺️❤️.</small>
+              </div>
+            </div>
+
+            <div class="memory-item">
+              <span class="memory-icon">✦</span>
+              <div>
+                <strong>Our conversations</strong>
+                <small>Dari obrolan random sampai cerita yang panjang🤗.</small>
+              </div>
+            </div>
+
+            <div class="memory-item">
+              <span class="memory-icon">⌁</span>
+              <div>
+                <strong>The little moments</strong>
+                <small>Momen kecil yang mungkin cuma kita yang mengerti🥰.</small>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ================= MEMORIES ================= -->
+    <section class="section memories-section" id="memories">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 02</div>
+        <h2>Our <em>Memories</em></h2>
+        <p>
+          Foto yang ada di bagian ini diambil langsung dari folder
+          <strong>photo/</strong>, jadi foto akan ikut terbawa saat
+          seluruh folder website dikirim atau di-ZIP.
+        </p>
+      </div>
+
+      <div class="memories-panel reveal">
+        <div class="memories-toolbar">
+          <div>
+            <div class="eyebrow">OUR LITTLE GALLERY</div>
+            <h3>Moments worth keeping.</h3>
+          </div>
+
+          <div class="folder-note">
+            <span>PHOTO FOLDER</span>
+            <strong>photo/</strong>
+          </div>
+        </div>
+
+        <!--
+          FOTO PERMANEN:
+          Taruh foto di folder photo/, lalu tambahkan kartu baru seperti contoh di bawah.
+
+          Contoh:
+          <figure class="photo">
+            <img src="photo/foto1.jpg" alt="Our memory">
+            <figcaption>Our memory ♡</figcaption>
+          </figure>
+        -->
+
+        <div class="media-layout photo-layout">
+          <div class="media-group portrait-group">
+            <div class="media-group-heading">
+              <span>PORTRAIT</span>
+              <strong>Portrait memories</strong>
+            </div>
+            <div class="photo-grid media-pool" data-media-sort="photo">
+              <figure class="photo reveal" data-orientation="auto">
+                <img src="photo/foto1.jpg" alt="Memory 1" onerror="this.closest('.photo').classList.add('missing')">
+                <figcaption>our little moment ♡</figcaption>
+              </figure>
+              <figure class="photo reveal" data-orientation="auto">
+                <img src="photo/foto2.jpg" alt="Memory 2" onerror="this.closest('.photo').classList.add('missing')">
+                <figcaption>one of my favorites</figcaption>
+              </figure>
+              <figure class="photo reveal" data-orientation="auto">
+                <img src="photo/foto3.jpg" alt="Memory 3" onerror="this.closest('.photo').classList.add('missing')">
+                <figcaption>a memory to keep</figcaption>
+              </figure>
+              <figure class="photo reveal" data-orientation="auto">
+                <img src="photo/foto4.jpg" alt="Memory 4" onerror="this.closest('.photo').classList.add('missing')">
+                <figcaption>just us ♡</figcaption>
+              </figure>
+              <figure class="photo reveal" data-orientation="auto">
+                <img src="photo/foto5.jpg" alt="Memory 5" onerror="this.closest('.photo').classList.add('missing')">
+                <figcaption>Firs time ♡</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="media-group landscape-group">
+            <div class="media-group-heading">
+              <span>LANDSCAPE</span>
+              <strong>Landscape memories</strong>
+            </div>
+            <div class="photo-grid media-target" data-media-target="photo-landscape"></div>
+          </div>
+        </div>
+
+        <div class="photo-instruction">
+          <span>♡</span>
+          <div>
+            <strong>Cara menambah foto</strong>
+            <p>
+              Masukkan foto ke folder <b>photo</b>, lalu ubah nama menjadi
+              <b>foto1.jpg</b>, <b>foto2.jpg</b>, dan seterusnya.
+              Untuk foto tambahan, copy satu blok <code>&lt;figure&gt;</code>
+              di <b>index.html</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- ================= HER LITTLE GALLERY ================= -->
+    <section class="section her-gallery-section" id="her-gallery">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 03</div>
+        <h2>Her Little <em>Gallery</em></h2>
+        <p>
+          Karena ada foto-foto dirinya yang rasanya terlalu cantik kalau cuma
+          disimpan di folder. Jadi, satu halaman kecil ini khusus untuk dia.
+        </p>
+      </div>
+
+      <div class="her-gallery-panel reveal">
+        <div class="her-gallery-intro">
+          <div>
+            <div class="eyebrow">JUST HER ♡</div>
+            <h3>Little pieces of <em>her.</em></h3>
+          </div>
+          <p>Enam foto, satu halaman kecil, dan banyak alasan untuk tersenyum.</p>
+        </div>
+
+        <div class="media-layout her-photo-layout">
+          <div class="media-group portrait-group">
+            <div class="media-group-heading">
+              <span>PORTRAIT</span>
+              <strong>Her portrait gallery</strong>
+            </div>
+            <div class="her-gallery-grid media-pool" data-media-sort="her-photo">
+              <figure class="her-photo her-photo-main reveal" data-orientation="auto">
+                <img src="photo/dia1.jpg" alt="Foto dia 1" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>01</span><strong>pretty as always ♡</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia2.jpg" alt="Foto dia 2" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>02</span><strong>that little smile</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia3.jpg" alt="Foto dia 3" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>03</span><strong>one of my favorites</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia4.jpg" alt="Foto dia 4" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>04</span><strong>simply her.</strong></figcaption>
+              </figure>
+              <figure class="her-photo her-photo-wide reveal" data-orientation="auto">
+                <img src="photo/dia5.jpg" alt="Foto dia 5" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>05</span><strong>a moment worth keeping ♡</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia6.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>06</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia7.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>07</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia8.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>08</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia9.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>09</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia10.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>10</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia11.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>11</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia12.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>12</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia13.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>13</span><strong>my favorite view</strong></figcaption>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia14.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>14</span><strong>my favorite view</strong></figcaption>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia15.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>15</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia16.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>16</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia17.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>17</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia18.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>18</span><strong>my favorite view</strong></figcaption>
+              </figure>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia19.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>19</span><strong>my favorite view</strong></figcaption>
+              </figure>
+               <figure class="her-photo reveal" data-orientation="auto">
+                <img src="photo/dia20.jpg" alt="Foto dia 6" onerror="this.closest('.her-photo').classList.add('missing')">
+                <figcaption><span>20</span><strong>my favorite view</strong></figcaption>
+              </figure>
+            </div>
+          </div>
+
+
+          <div class="media-group landscape-group">
+            <div class="media-group-heading">
+              <span>LANDSCAPE</span>
+              <strong>Her landscape gallery</strong>
+            </div>
+            <div class="her-gallery-grid media-target" data-media-target="her-photo-landscape"></div>
+          </div>
+        </div>
+
+        <div class="her-gallery-footer">
+          <div class="footer-heart">♡</div>
+          <div>
+            <strong>A little gallery, just for her.</strong>
+            <p>
+              Simpan foto dengan nama <b>dia1.jpg</b> sampai <b>dia6.jpg</b>
+              di dalam folder <b>photo/</b>. Website akan otomatis memisahkan foto portrait dan landscape berdasarkan ukuran aslinya.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VIDEOS ================= -->
+    <section class="section videos-section" id="videos">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 04</div>
+        <h2>Our <em>Videos</em></h2>
+        <p>
+          Simpan video kenangan kalian di folder <strong>video/</strong>.
+          Video akan ikut terbawa saat folder website di-ZIP.
+        </p>
+      </div>
+
+      <div class="videos-panel reveal">
+        <div class="memories-toolbar">
+          <div>
+            <div class="eyebrow">MOVING MEMORIES</div>
+            <h3>Moments in motion.</h3>
+          </div>
+
+          <div class="folder-note">
+            <span>VIDEO FOLDER</span>
+            <strong>video/</strong>
+          </div>
+        </div>
+
+        <!--
+          VIDEO PERMANEN:
+          Taruh video di folder video/, lalu gunakan nama:
+          video1.mp4, video2.mp4, dst.
+
+          Contoh blok tambahan:
+          <figure class="video-card">
+            <video controls preload="metadata" playsinline>
+              <source src="video/video1.mp4" type="video/mp4">
+            </video>
+            <figcaption>our little moment ♡</figcaption>
+          </figure>
+        -->
+
+        <div class="media-layout video-layout">
+          <div class="media-group portrait-group">
+            <div class="media-group-heading">
+              <span>PORTRAIT</span>
+              <strong>Portrait videos</strong>
+            </div>
+            <div class="video-grid media-pool" data-media-sort="video">
+              <figure class="video-card reveal" data-orientation="auto">
+                <video controls preload="metadata" playsinline onerror="this.closest('.video-card').classList.add('missing')">
+                  <source src="video/video1.mp4" type="video/mp4">
+                </video>
+                <figcaption>one little memory ♡</figcaption>
+              </figure>
+              <figure class="video-card reveal" data-orientation="auto">
+                <video controls preload="metadata" playsinline onerror="this.closest('.video-card').classList.add('missing')">
+                  <source src="video/video2.mp4" type="video/mp4">
+                </video>
+                <figcaption>a moment worth replaying</figcaption>
+              </figure>
+              <figure class="video-card reveal" data-orientation="auto">
+                <video controls preload="metadata" playsinline onerror="this.closest('.video-card').classList.add('missing')">
+                  <source src="video/video3.mp4" type="video/mp4">
+                </video>
+                <figcaption>My favorite</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="media-group landscape-group">
+            <div class="media-group-heading">
+              <span>LANDSCAPE</span>
+              <strong>Landscape videos</strong>
+            </div>
+            <div class="video-grid media-target" data-media-target="video-landscape"></div>
+          </div>
+        </div>
+
+        <div class="photo-instruction">
+          <span>♡</span>
+          <div>
+            <strong>Cara menambah video</strong>
+            <p>
+              Masukkan video MP4 ke folder <b>video</b>, lalu beri nama
+              <b>video1.mp4</b> atau <b>video2.mp4</b>. Untuk video tambahan,
+              copy satu blok <code>&lt;figure class="video-card"&gt;</code>
+              di <b>index.html</b>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+<!-- ================= HER LITTLE VIDEOS ================= -->
+    <section class="section her-videos-section" id="her-videos">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 05</div>
+        <h2>Her Little <em>Videos</em></h2>
+        <p>Tempat khusus untuk video dirinya saja, terpisah dari video kalian berdua.</p>
+      </div>
+
+      <div class="her-videos-panel reveal">
+        <div class="her-videos-intro">
+          <div>
+            <div class="eyebrow">JUST HER ♡</div>
+            <h3>Little moments of <em>her.</em></h3>
+          </div>
+        </div>
+
+        <div class="media-layout her-video-layout">
+          <div class="media-group portrait-group">
+            <div class="media-group-heading">
+              <span>PORTRAIT</span>
+              <strong>Her portrait videos</strong>
+            </div>
+            <div class="her-video-grid media-pool" data-media-sort="her-video">
+              <figure class="her-video-card portrait">
+                <iframe src="https://drive.google.com/file/d/1XSTw8sQpn6oO-AaT-DLCwyb3kSBdigys/preview" width="100%" height="280" allow="autoplay" style="border:0; border-radius:12px;"></iframe>
+                <figcaption><span>01</span><strong>her little moment ♡</strong></figcaption>
+              </figure>
+
+              <figure class="her-video-card landscape">
+                <video controls preload="metadata" playsinline>
+                  <source src="https://res.cloudinary.com/xibquhbi/video/upload/VID_20260325_152609.mp4" type="video/mp4">
+                </video>
+                <figcaption><span>02</span><strong>her little moment ♡</strong></figcaption>
+              </figure>
+
+              <figure class="her-video-card portrait">
+                <iframe src="https://drive.google.com/file/d/ID_VIDEO_HER_3/preview" width="100%" height="280" allow="autoplay" style="border:0; border-radius:12px;"></iframe>
+                <figcaption><span>03</span><strong>a moment worth keeping ♡</strong></figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="media-group landscape-group">
+            <div class="media-group-heading">
+              <span>LANDSCAPE</span>
+              <strong>Her landscape videos</strong>
+            </div>
+            <div class="her-video-grid media-target" data-media-target="her-video-landscape"></div>
+          </div>
+        </div>
+
+        <div class="her-videos-footer">
+          <div class="footer-heart">♡</div>
+          <div>
+            <strong>Video khusus untuk dia.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- ================= LETTER ================= -->
+    <section class="section letter-section" id="letter">
+      <div class="section-heading reveal">
+        <div class="eyebrow">CHAPTER 05</div>
+        <h2>A Letter <em>For You</em></h2>
+      </div>
+
+      <article class="letter-paper reveal">
+        <div class="paper-decoration top-left">♡</div>
+        <div class="paper-decoration bottom-right">♡</div>
+
+        <div class="letter-meta">A LETTER, WRITTEN WITH LOVE</div>
+
+        <h3>Dear you,</h3>
+
+        <p>
+          Aku mungkin tidak selalu pandai menjelaskan apa yang aku rasakan.
+          Kadang aku bahkan tidak tahu harus memulainya dari mana. dan kadang
+          ketika kita membicarakan nya kita jadi salah paham dan berujung marah.
+          Tapi ada satu hal yang ingin aku pastikan kamu tahu:
+          <strong>keberadaanmu sangat berarti liyana☺️.</strong>
+        </p>
+
+        <p>
+          Kalau mengingat kembali perjalanan kita, aku masih ingat 17 Oktober 2024, hari ketika
+          kita mulai bersama. Mungkin saat itu kita belum tahu akan sejauh apa cerita ini berjalan,
+          tapi ternyata sejak hari itu ada banyak hal yang kita lewati dan banyak kenangan yang terbentuk🥰
+        </p>
+
+        <p>
+         Lalu ada 5 Januari 2026, hari pertama kita pergi bersama. Mungkin bagi orang lain itu
+         hanya sebuah hari biasa, tapi buat aku, hari itu punya cerita sendiri. Rasanya
+         menyenangkan bisa menghabiskan waktu bersamamu untuk pertama kalinya, membuat kenangan 
+         baru diluar bersama sama, dan punya satu lagi tanggal yang bisa kita ingat sebagai
+         bagian dari cerita kita.🥰💕
+        </p>
+        
+        <p>
+         Terima kasih untuk semua perhatian kecil, cerita, tawa, waktu, dan momen yang sudah
+         kita bagi bersama🤗❤️. Mungkin sebagian terlihat sederhana, tapi justru hal-hal kecil seperti itu yang
+         membuat sebuah hubungan terasa berarti. Dari sana kita belajar mengenal satu sama
+         lain, memahami satu sama lain, dan terus menulis cerita kita sedikit demi sedikit.🥰
+        </p>
+
+        <div class="letter-highlight">
+          “Kalau suatu hari kita membuka halaman ini lagi,
+          semoga kita tersenyum karena ternyata masih banyak cerita
+          yang berhasil kita tulis bersama dan kita bisa menambah
+          cerita dari kita berdua☺️.”
+        </div>
+
+        <p>
+         Aku tidak tahu persis seperti apa halaman berikutnya. Aku juga tidak tahu akan ada
+         berapa banyak kenangan yang nantinya kita buat. Tapi selama masih ada kesempatan
+         untuk membuat cerita baru😊❤️, aku ingin menikmati setiap momennya🤗. Karena pada
+         akhirnya, bukan tentang seberapa sempurna ceritanya, tapi tentang bagaimana setiap
+         momen yang kita lewati bisa menjadi sesuatu yang layak untuk dikenang.(^///^)🥰
+        </p>
+
+        <p>
+         Jadi, terima kasih sudah hadir dan menjadi bagian dari hidupku. Terima kasih karena
+         pernah dan masih mau berbagi cerita, waktu, tawa, dan banyak hal lainnya denganku.😆 💖
+        </p>
+
+        <p>
+         Semoga 17 Oktober 2024 dan 5 Januari 2026 bukan hanya menjadi tanggal yang kita
+         ingat, tapi menjadi bagian kecil dari cerita panjang yang suatu hari nanti bisa kita lihat
+         kembali dengan senyuman.☺️👐
+        </p>
+
+        <div class="letter-sign">
+          <span>With all my heart,</span>
+          <strong>someone who is grateful to have you ♡☺️🫵
+
+            I am so lucky to have you and to have met you🥰💕
+            
+          </strong>
+        </div>
+      </article>
+    </section>
+
+
+    <!-- ================= MESSAGE TO US ================= -->
+    <section class="section message-section" id="messages">
+      <div class="section-heading reveal">
+        <div class="eyebrow">ONE MORE THING</div>
+        <h2>A Message <em>For Us</em></h2>
+        <p>
+          Kalau ada sesuatu yang ingin kamu sampaikan, tulis di sini.
+          Setelah menekan tombol kirim, WhatsApp akan terbuka dengan pesan yang
+          sudah disiapkan untuk dikirim kepada kita. ♡
+        </p>
+      </div>
+
+      <div class="message-panel reveal">
+        <div class="message-copy">
+          <div class="message-heart">♡</div>
+          <div>
+            <div class="eyebrow">LEAVE A LITTLE NOTE</div>
+            <h3>Tulis sesuatu untuk kita.</h3>
+            <p>
+              Tidak perlu panjang. Bisa cerita kecil, ucapan, rasa kangen,
+              atau apa pun yang ingin kamu titipkan di halaman ini. 🤍
+            </p>
+          </div>
+        </div>
+
+        <form
+          class="love-message-form"
+          id="loveMessageForm"
+          autocomplete="off"
+        >
+          <div class="form-field">
+            <label for="message-name">Nama kamu</label>
+            <input
+              id="message-name"
+              name="name"
+              type="text"
+              placeholder="Tulis namamu..."
+              autocomplete="name"
+              maxlength="80"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="message-text">Pesan untuk kita</label>
+            <textarea
+              id="message-text"
+              name="message"
+              rows="7"
+              maxlength="2000"
+              placeholder="Tulis pesanmu di sini... ♡"
+              required
+            ></textarea>
+          </div>
+
+          <button class="message-submit" type="submit">
+            <span>KIRIM KE WHATSAPP</span>
+            <span>♡</span>
+          </button>
+
+          <p class="form-status" id="messageStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="message-note">
+          <span>♡</span>
+          <p>
+            Format pesan otomatis dibuat seperti ini: <strong>“Ini pesan untuk kamu dari... (nama)”</strong>
+            lalu diikuti isi pesannya. WhatsApp akan terbuka agar pengirim menekan
+            <strong>Kirim</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ENDING ================= -->
+    <section class="ending" id="end">
+      <div class="ending-content reveal">
+        <div class="eyebrow">THE END? NO.</div>
+        <h2>Our story is still <em>writing.</em></h2>
+        <p>
+          Ini baru satu halaman kecil. Sisanya biar waktu yang menuliskannya,
+          satu momen demi satu momen.
+        </p>
+        <a href="#home" class="back-button">↑ Back to the beginning</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Made with ♡ and a lot of memories.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
